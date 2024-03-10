@@ -36,4 +36,5 @@ public class SVGDocument {
 
     private HashMap<String, String> parseAttributes(String[] parts) {
     }
-}
+
+
