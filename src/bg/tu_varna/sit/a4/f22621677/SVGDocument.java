@@ -33,8 +33,5 @@ public class SVGDocument {
             System.out.println("File not found or error reading file.");
         }
     }
-
-    private HashMap<String, String> parseAttributes(String[] parts) {
-    }
-
+}
 
