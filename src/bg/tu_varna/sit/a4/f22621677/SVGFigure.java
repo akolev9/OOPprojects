@@ -11,4 +11,14 @@ import java.util.HashMap;
          this.tag = tag;
          this.attributes = attributes;
      }
+     @Override
+     public String toString() {
+         StringBuilder sb = new StringBuilder();
+         sb.append("<").append(tag);
+         for (String key : attributes.keySet()) {
+             sb.append(" ").append(key).append("=\"").append(attributes.get(key)).append("\"");
+         }
+         sb.append(" />");
+         return sb.toString();
+     }
  }
